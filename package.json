@@ -1,0 +1,23 @@
+{
+  "name": "craft-component-library-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 0.5%",
+    "Firefox ESR",
+    "not dead"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "terser": "^5.31.6",
+    "vite": "^5.4.2",
+    "vite-plugin-restart": "^0.4.1"
+  }
+}

@@ -1,0 +1,67 @@
+color: null
+fieldLayouts:
+  0072cc78-62d8-482c-9a27-f76ae759945d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-10T20:24:34+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6ae16ffb-9c86-4ff0-99a9-8958eccb053e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-10T20:43:37+00:00'
+            elementCondition: null
+            fieldUid: 17198886-3d1c-4283-8cbf-dea8a07f9130 # Rich Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 49ed326a-f24b-4ebd-9fe0-3af155debd04
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 132a11b4-32d9-427f-82bc-89146444b59f
+        userCondition: null
+handle: richText
+hasTitleField: false
+icon: font-case
+name: 'Rich Text'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

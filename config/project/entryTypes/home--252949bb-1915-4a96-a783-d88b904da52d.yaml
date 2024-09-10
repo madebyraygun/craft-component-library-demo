@@ -1,0 +1,67 @@
+color: null
+fieldLayouts:
+  f99dc0e6-9c81-4360-86a1-c135bc4746fc:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-10T20:23:09+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4a7f67c3-07c3-443f-bf01-35ef8fd389b8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-10T20:26:56+00:00'
+            elementCondition: null
+            fieldUid: 9c921747-c91f-4a83-8fdf-6947c3e6d0ca # Blocks
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40e633ab-e428-41db-b292-ab8e2880083c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 69f4ae23-1cba-4cfc-9d5d-d8776f654ccd
+        userCondition: null
+handle: home
+hasTitleField: false
+icon: house
+name: Home
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: Homepage
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

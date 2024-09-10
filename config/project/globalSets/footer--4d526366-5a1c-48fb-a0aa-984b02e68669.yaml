@@ -1,0 +1,28 @@
+fieldLayouts:
+  95669a03-0371-4d50-ac1d-6a710754e9f4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-09-10T20:23:07+00:00'
+            elementCondition: null
+            fieldUid: f4d9d7d8-e177-48e3-ad6d-70d9411928d3 # Copyright Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ea996b12-4478-4577-96bb-cf8be44fa435
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Copyright Title'
+        uid: 3a90f6c4-4a85-4de6-8e7b-17c029b830e7
+        userCondition: null
+handle: footer
+name: Footer
+sortOrder: 1

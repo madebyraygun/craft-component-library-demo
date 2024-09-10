@@ -1,0 +1,29 @@
+<figure class="image {{class|default}}">
+    <img
+      src="{{src|default}}"
+      alt="{{alt|default}}"
+      {% if srcset|default %}
+        srcset="{{srcset}}"
+      {% endif %}
+      {% if sizes|default %}
+        sizes="{{sizes}}"
+      {% endif %}
+      {% if lazy|default %}
+        loading="lazy"
+      {% endif %}
+      {% if width|default %}
+        width="{{width}}"
+      {% endif %}
+      {% if height|default %}
+        height="{{height}}"
+      {% endif %}
+      {% if style|default %}
+        style="{{style}}"
+      {% endif %}
+    />
+  {% if caption|default %}
+    <figcaption>
+      {{caption|raw}}
+    </figcaption>
+  {% endif %}
+</figure>

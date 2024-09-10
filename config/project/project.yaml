@@ -1,0 +1,59 @@
+dateModified: 1726002029
+email:
+  fromEmail: dev@madebyraygun.com
+  fromName: 'Craft Component Library Demo'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  media:
+    hasUrls: true
+    name: Media
+    settings:
+      path: '@webroot'
+    type: craft\fs\Local
+    url: $PRIMARY_SITE_URL
+meta:
+  __names__:
+    2c92c24e-f0d1-4b89-a42e-ec7c265a6840: Image # Image
+    4d526366-5a1c-48fb-a0aa-984b02e68669: Footer # Footer
+    9b457ece-bb79-4dce-abd8-bc4c85282c89: Cards # Cards
+    9c921747-c91f-4a83-8fdf-6947c3e6d0ca: Blocks # Blocks
+    30a59d3d-d7b6-481d-a9f2-eb656f729f1d: Caption # Caption
+    58afd4c6-1d7f-4b69-bd55-c81f2357e7e9: Media # Media
+    64e215c1-22c4-4d3d-adc3-9f8f2536d852: 'Short Description' # Short Description
+    252949bb-1915-4a96-a783-d88b904da52d: Home # Home
+    705231e4-6a10-4c03-80f4-69c51c381304: 'Craft Component Library Demo' # Craft Component Library Demo
+    17198886-3d1c-4283-8cbf-dea8a07f9130: 'Rich Text' # Rich Text
+    a6ef0c36-7f89-4276-a639-a03bba53d052: Card # Card
+    aee3f8fe-3f38-4224-8791-e0c8b3d7b017: Image # Image
+    b194c019-a6a6-4138-92b2-b44377f77619: 'Rich Text' # Rich Text
+    cc66de26-5ee6-4f1b-a9e9-cbf71904d44b: Simple # Simple
+    de1cde2b-e419-4595-8d0b-c6d9af50451e: Home # Home
+    e2f3dc5f-ae80-4a82-a499-9f0f651a335a: Card # Card
+    f4d9d7d8-e177-48e3-ad6d-70d9411928d3: 'Copyright Title' # Copyright Title
+    fa8a0560-9f5d-45dd-ac35-76f749e96a7c: 'Craft Component Library Demo' # Craft Component Library Demo
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  component-library:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  matrix-block-loader:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft Component Library Demo'
+  schemaVersion: 5.3.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

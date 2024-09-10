@@ -1,0 +1,10 @@
+.content p, .content li, .content figcaption, .content th, .content td, .content tr {
+  color: var(--color-body);
+  font-family: var(--font-family-body);
+}
+
+.content a {
+  color: var(--color-body-anchor);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}

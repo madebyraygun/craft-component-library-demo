@@ -1,0 +1,35 @@
+{% hook 'global-context' %}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ currentSite.language }}" class="no-js {{ currentSite.locale.getOrientation() }}">
+  <head>
+    {% block head %}
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="view-transition" content="same-origin" />
+      <link rel="home" href="{{ siteUrl }}"/>
+      {{ craft.library.script("src/js/app.js") }}
+    {% endblock %}
+  </head>
+
+  <body data-theme="{{pageTheme|default('default-theme')}}">
+    <div class="site-container">
+      {% if craft.library.devServerRunning() %}
+        <div class="dev-server-notice">
+          <p>Development server running.</p>
+        </div>
+      {% endif %}
+      <a href="#main" class="is-sr-only skip-link" title="Skip to content">Skip to content</a>
+      {% include '@modules/masthead' with masthead_context %}
+      {% block body %}
+        <main id="main">
+          {% block main %}{% endblock %}
+        </main>
+      {% endblock %}
+    </div>
+    <!--.site-container-->
+    {% block footer %}
+      {% include '@modules/footer' with footer_context %}
+    {% endblock %}
+  </body>
+</html>

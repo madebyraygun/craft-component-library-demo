@@ -1,0 +1,25 @@
+figure.image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+figure.image figcaption {
+  margin-top: 0.5em;
+  font-size: 0.8em;
+  color: var(--color-gray);
+}
+
+figure.image.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+}
+
+figure.image.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

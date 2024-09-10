@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: blocks
+instructions: null
+name: Blocks
+searchable: false
+settings:
+  createButtonLabel: 'New Block'
+  entryTypes:
+    - 2c92c24e-f0d1-4b89-a42e-ec7c265a6840 # Image
+    - b194c019-a6a6-4138-92b2-b44377f77619 # Rich Text
+    - 9b457ece-bb79-4dce-abd8-bc4c85282c89 # Cards
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
