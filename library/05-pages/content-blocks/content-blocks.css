@@ -1,0 +1,8 @@
+.content-blocks {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.content-blocks .content-block + .content-block {
+  margin-top: 2rem;
+}

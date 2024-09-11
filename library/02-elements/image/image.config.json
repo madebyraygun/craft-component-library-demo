@@ -3,7 +3,7 @@
 	"context": {
 		"src": "/dist/images/image-2.jpg",
 		"alt": "A walkway in a greenhouse filled with lush foliage.",
-		"caption": "Source: Vitaly Mazur via <a href=\"https://unsplash.com/photos/a-walkway-in-a-greenhouse-filled-with-lots-of-plants-8Y-YfCz-n7E\">Unsplash</a>."
+		"caption": "<p>Source: Vitaly Mazur via <a href=\"https://unsplash.com/photos/a-walkway-in-a-greenhouse-filled-with-lots-of-plants-8Y-YfCz-n7E\">Unsplash</a>.</p>"
 	},
   "variants": [
     {

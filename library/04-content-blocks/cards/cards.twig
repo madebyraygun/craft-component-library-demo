@@ -1,0 +1,9 @@
+<div class="content-block content-block--cards">
+  <div class="content-block--cards__inner">
+    {% if cards|default %}
+      {% for card in cards %}
+        {% include '@modules/card' with { ...card } %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>

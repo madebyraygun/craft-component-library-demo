@@ -1,0 +1,9 @@
+<div class="card">
+  <div class="card__image">
+    {% include '@elements/image' with { ...image|default } %}
+  </div>
+  <div class="card__content">
+    <h3 class="card__title"><a href="{{url|default}}">{{ title|default }}</a></h3>
+    <p class="card__description">{{ shortDescription|default }}</p>
+  </div>
+</div>

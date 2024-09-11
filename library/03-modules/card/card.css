@@ -1,0 +1,33 @@
+.card {
+  max-width: 400px;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  position: relative;
+}
+
+.card__image {
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+}
+
+.card__image figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+}
+
+.card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__content {
+  padding: 20px;
+}
+.card figcaption {
+  display: none;
+}

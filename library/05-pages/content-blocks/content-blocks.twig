@@ -1,0 +1,7 @@
+<div class="content-blocks">
+  {% if blocks|default %}
+    {% for item in blocks|default %}
+      {% include '@content-blocks/' ~ item.handle with item.context %}
+    {% endfor %}
+  {% endif %}
+</div>

@@ -1,0 +1,15 @@
+.content-block--cards__inner{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.content-block--cards .card {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .content-block--cards .card {
+    flex-basis: 30%;
+  }
+}
