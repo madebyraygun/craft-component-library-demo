@@ -1,4 +1,4 @@
-dateModified: 1726079843
+dateModified: 1726079844
 email:
   fromEmail: dev@madebyraygun.com
   fromName: 'Craft Component Library Demo'
@@ -42,10 +42,6 @@ plugins:
     enabled: true
     schemaVersion: 3.0.0.0
   component-library:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  matrix-block-loader:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
