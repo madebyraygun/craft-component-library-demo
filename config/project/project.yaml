@@ -1,4 +1,4 @@
-dateModified: 1726079020
+dateModified: 1726079843
 email:
   fromEmail: dev@madebyraygun.com
   fromName: 'Craft Component Library Demo'
@@ -33,6 +33,10 @@ meta:
     f4d9d7d8-e177-48e3-ad6d-70d9411928d3: 'Copyright Title' # Copyright Title
     fa8a0560-9f5d-45dd-ac35-76f749e96a7c: 'Craft Component Library Demo' # Craft Component Library Demo
 plugins:
+  block-loader:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   ckeditor:
     edition: standard
     enabled: true
@@ -41,7 +45,7 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  craft-block-loader:
+  matrix-block-loader:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0

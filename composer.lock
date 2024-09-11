@@ -1443,12 +1443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/madebyraygun/craft-block-loader.git",
-                "reference": "f41ebb578cd9d90993fe453eef81c477bbd96f9d"
+                "reference": "96b47d987b473616e31bcfc778b6478ee7d44191"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/madebyraygun/craft-block-loader/zipball/f41ebb578cd9d90993fe453eef81c477bbd96f9d",
-                "reference": "f41ebb578cd9d90993fe453eef81c477bbd96f9d",
+                "url": "https://api.github.com/repos/madebyraygun/craft-block-loader/zipball/96b47d987b473616e31bcfc778b6478ee7d44191",
+                "reference": "96b47d987b473616e31bcfc778b6478ee7d44191",
                 "shasum": ""
             },
             "require": {
@@ -1461,7 +1461,7 @@
             },
             "type": "craft-plugin",
             "extra": {
-                "handle": "craft-block-loader",
+                "handle": "block-loader",
                 "name": "Block Loader",
                 "developer": "Raygun",
                 "developerUrl": "https://github.com/madebyraygun",
@@ -1488,7 +1488,7 @@
                 "issues": "https://github.com/madebyraygun/craft-block-loader/issues",
                 "source": "https://github.com/madebyraygun/craft-block-loader"
             },
-            "time": "2024-09-11T18:21:24+00:00"
+            "time": "2024-09-11T18:34:44+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",
