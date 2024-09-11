@@ -24,7 +24,7 @@
     "craftcms/ckeditor": "4.2.0",
     "craftcms/cms": "^5.0.0",
     "madebyraygun/component-library": "dev-dev",
-    "madebyraygun/craft-matrix-block-loader": "dev-feat/v2.0",
+    "madebyraygun/craft-block-loader": "^2.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "autoload": {
@@ -54,13 +54,6 @@
     {
       "type": "github",
       "url": "https://github.com/madebyraygun/component-library.git",
-      "options": {
-        "symlink": true
-      }
-    },
-    {
-      "type": "github",
-      "url": "https://github.com/madebyraygun/craft-matrix-block-loader.git",
       "options": {
         "symlink": true
       }

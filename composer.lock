@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ef7d455bdfdb6688bcd232d5a07e1c8",
+    "content-hash": "cb3a662c915ba2b00c2c3501552ed057",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1438,17 +1438,17 @@
             "time": "2024-09-06T03:40:40+00:00"
         },
         {
-            "name": "madebyraygun/craft-matrix-block-loader",
-            "version": "dev-feat/v2.0",
+            "name": "madebyraygun/craft-block-loader",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/madebyraygun/craft-matrix-block-loader.git",
-                "reference": "19f2b44d38282e1fddd66c07381b98c3caae6ea1"
+                "url": "https://github.com/madebyraygun/craft-block-loader.git",
+                "reference": "f41ebb578cd9d90993fe453eef81c477bbd96f9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/madebyraygun/craft-matrix-block-loader/zipball/19f2b44d38282e1fddd66c07381b98c3caae6ea1",
-                "reference": "19f2b44d38282e1fddd66c07381b98c3caae6ea1",
+                "url": "https://api.github.com/repos/madebyraygun/craft-block-loader/zipball/f41ebb578cd9d90993fe453eef81c477bbd96f9d",
+                "reference": "f41ebb578cd9d90993fe453eef81c477bbd96f9d",
                 "shasum": ""
             },
             "require": {
@@ -1461,28 +1461,18 @@
             },
             "type": "craft-plugin",
             "extra": {
-                "handle": "matrix-block-loader",
-                "name": "Matrix Block Loader",
+                "handle": "craft-block-loader",
+                "name": "Block Loader",
                 "developer": "Raygun",
                 "developerUrl": "https://github.com/madebyraygun",
-                "documentationUrl": "https://github.com/madebyraygun/craft-block-loader/blob/main/README.md"
+                "documentationUrl": "https://github.com/madebyraygun/craft-block-loader/blob/dev/README.md"
             },
             "autoload": {
                 "psr-4": {
                     "madebyraygun\\blockloader\\": "src/"
                 }
             },
-            "scripts": {
-                "check-cs": [
-                    "ecs check --ansi"
-                ],
-                "fix-cs": [
-                    "ecs check --ansi --fix"
-                ],
-                "phpstan": [
-                    "phpstan --memory-limit=1G"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1492,13 +1482,13 @@
                     "homepage": "https://github.com/madebyraygun"
                 }
             ],
-            "description": "Matrix block loader for Craft CMS",
+            "description": "Context loader for Craft CMS matrix blocks and nested entries.",
             "support": {
-                "docs": "https://github.com/madebyraygun/craft-matrix-block-loader/blob/main/README.md",
-                "issues": "https://github.com/madebyraygun/craft-matrix-block-loader/issues",
-                "source": "https://github.com/madebyraygun/craft-matrix-block-loader"
+                "docs": "https://github.com/madebyraygun/craft-block-loader/blob/main/README.md",
+                "issues": "https://github.com/madebyraygun/craft-block-loader/issues",
+                "source": "https://github.com/madebyraygun/craft-block-loader"
             },
-            "time": "2024-09-10T16:06:18+00:00"
+            "time": "2024-09-11T18:21:24+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",
@@ -6132,7 +6122,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "madebyraygun/component-library": 20,
-        "madebyraygun/craft-matrix-block-loader": 20,
         "craftcms/ecs": 20,
         "craftcms/phpstan": 20
     },
