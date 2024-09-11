@@ -1,6 +1,5 @@
 if (import.meta.hot) import.meta.hot.accept(() => console.log("HMR Enabled"));
-import '@css/reset.css'
-import '@css/vars.css'
+import '@css/base.css'
 import.meta.glob([
   '@lib/**/*.css',
   '@lib/**/*.js',

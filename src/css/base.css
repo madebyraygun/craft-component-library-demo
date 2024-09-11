@@ -1,0 +1,12 @@
+/* 
+ *  Note we're making using of CSS layers here to ensure the proper cascade order.
+ *  https://github.com/vitejs/vite/issues/3924
+ *  https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_layers 
+ *  https://caniuse.com/?search=%40layer
+ *  If you need better browser support, you may be able to use PostCSS to compile the CSS layers.
+ *  https://www.npmjs.com/package/@csstools/postcss-cascade-layers
+ *  Or just put all of your base CSS in the library folder like 01-base/css/~
+ */
+
+@import 'reset.css' layer(base);
+@import 'vars.css' layer(base);
