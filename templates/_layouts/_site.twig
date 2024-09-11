@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="view-transition" content="same-origin" />
       <link rel="home" href="{{ siteUrl }}"/>
-      {{ craft.library.script("src/js/app.js") }}
+      {{ craft.library.script("src/app.js", false) }}
     {% endblock %}
   </head>
 
@@ -19,7 +19,6 @@
           <p>Development server running.</p>
         </div>
       {% endif %}
-      <a href="#main" class="is-sr-only skip-link" title="Skip to content">Skip to content</a>
       {% include '@modules/masthead' with masthead_context %}
       {% block body %}
         <main id="main">

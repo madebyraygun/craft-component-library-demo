@@ -2,7 +2,11 @@
 {% hook 'blocks' %}
 
 {% block main %}
-    {% for item in blocks|default %}
-        {% include '@content-blocks/' ~ item.handle with item.context %}
-    {% endfor %}
+    {% if blocks|default %}
+        <div class="content-blocks">
+        {% for item in blocks|default %}
+            {% include '@content-blocks/' ~ item.handle with item.context %}
+        {% endfor %}
+        </div>
+    {% endif %}
 {% endblock %}
