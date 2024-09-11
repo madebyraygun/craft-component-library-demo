@@ -28,8 +28,8 @@ export default defineConfig(({ command, mode }) => {
     plugins: [
       ViteRestart({
         reload: [
-          'templates/**/*.{twig}',
-          'library/**/*.{twig,php,json}',
+          '**/templates/**/*.{twig}',
+          '**/library/**/*.{twig,php,json}',
         ]
       }),
     ],
