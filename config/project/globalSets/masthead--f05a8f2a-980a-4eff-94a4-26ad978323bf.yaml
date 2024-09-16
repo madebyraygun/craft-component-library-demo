@@ -1,13 +1,13 @@
 fieldLayouts:
-  95669a03-0371-4d50-ac1d-6a710754e9f4:
+  bc1d5a96-c3ee-4186-a365-eccb1b5b19ec:
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-09-10T20:23:07+00:00'
+            dateAdded: '2024-09-16T21:12:55+00:00'
             elementCondition: null
-            fieldUid: f4d9d7d8-e177-48e3-ad6d-70d9411928d3 # Copyright Title
+            fieldUid: ce7c73fe-2959-4535-9336-247f701cdda3 # Navigation Links
             handle: null
             includeInCards: false
             instructions: null
@@ -16,13 +16,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ea996b12-4478-4577-96bb-cf8be44fa435
+            uid: c98cff44-257b-461e-bfab-f0df99859ca6
             userCondition: null
             warning: null
             width: 100
-        name: 'Copyright Title'
-        uid: 3a90f6c4-4a85-4de6-8e7b-17c029b830e7
+        name: Navigation
+        uid: fe8c1777-9cbf-42ef-95a1-8cdba1601796
         userCondition: null
-handle: footer
-name: Footer
-sortOrder: 2
+handle: masthead
+name: Masthead
+sortOrder: 1

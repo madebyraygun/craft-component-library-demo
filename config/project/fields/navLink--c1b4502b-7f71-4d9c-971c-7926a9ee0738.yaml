@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: navLink
+instructions: null
+name: Link
+searchable: false
+settings:
+  maxLength: 255
+  typeSettings:
+    __assoc__:
+      -
+        - url
+        -
+          __assoc__:
+            -
+              - allowRootRelativeUrls
+              - '1'
+            -
+              - allowAnchors
+              - '1'
+      -
+        - entry
+        -
+          __assoc__:
+            -
+              - sources
+              - '*'
+  types:
+    - url
+    - entry
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Link

@@ -1,0 +1,13 @@
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 2rem;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.masthead ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}

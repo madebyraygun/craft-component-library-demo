@@ -10,13 +10,23 @@ class MastheadContext
     {
         Craft::$app->view->hook('global-context', function(array &$context) {
             $context['masthead_context'] = [
-                'siteTitle' => self::getSiteTitle(),
+                'siteUrl' => Craft::$app->getSites()->getCurrentSite()->baseUrl,
+                'siteTitle' => Craft::$app->getSites()->getCurrentSite()->name,
+                'menuItems' => self::getNavNodes($context)
             ];
         });
     }
-
-    private static function getSiteTitle()
+    private static function getNavNodes($context)
     {
-        return Craft::$app->getSites()->getCurrentSite()->name;;
+        $mastheadGlobal = $context['craft']->app->getGlobals()->getSetByHandle('masthead');
+        $menuItems = [];
+        $entries = $mastheadGlobal->navigationLinks->all();
+        foreach ($entries as $entry) {
+            $menuItems[] = [
+                'text' => $entry->navText,
+                'url' => $entry->navLink
+            ];
+        }
+        return $menuItems;
     }
 }
