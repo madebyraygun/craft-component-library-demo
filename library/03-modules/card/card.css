@@ -8,7 +8,7 @@
 .card__image {
   position: relative;
   overflow: hidden;
-  height: 150px;
+  height: 250px;
 }
 
 .card__image figure {
@@ -16,7 +16,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 150px;
+  height: 250px;
 }
 
 .card__image img {
@@ -26,8 +26,13 @@
 }
 
 .card__content {
-  padding: 20px;
+  padding: 20px 20px 2.5rem;
 }
+
 .card figcaption {
   display: none;
+}
+
+.card .card__description {
+  margin-top: 2rem;
 }

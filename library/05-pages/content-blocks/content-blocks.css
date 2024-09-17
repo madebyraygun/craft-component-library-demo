@@ -1,6 +1,6 @@
 .content-blocks {
   max-width: 80rem;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .content-blocks .content-block + .content-block {
