@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  f99dc0e6-9c81-4360-86a1-c135bc4746fc:
+  a30b9539-9d8d-4826-91c5-acbd029bc1dc:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-10T20:23:09+00:00'
+            dateAdded: '2024-09-17T18:33:23+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,14 +31,14 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 4a7f67c3-07c3-443f-bf01-35ef8fd389b8
+            uid: 831c76b7-4374-4e0d-9f45-3ebdc39e5344
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-17T18:35:34+00:00'
+            dateAdded: '2024-09-17T18:34:51+00:00'
             elementCondition: null
-            fieldUid: 80e511bf-4bea-4b20-aa34-d3bdd3cd64bd # Banner
+            fieldUid: aee3f8fe-3f38-4224-8791-e0c8b3d7b017 # Image
             handle: null
             includeInCards: false
             instructions: null
@@ -47,20 +47,14 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 48c7bbc9-d4b3-4e28-b729-49bd1a90694a
+            uid: 040f6fae-1190-4826-b63c-bd2f6928ae06
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-17T18:35:34+00:00'
+            dateAdded: '2024-09-17T18:34:51+00:00'
             elementCondition: null
-            type: craft\fieldlayoutelements\HorizontalRule
-            uid: ea776901-a286-4b87-9c4d-b11bb654744b
-            userCondition: null
-          -
-            dateAdded: '2024-09-10T20:26:56+00:00'
-            elementCondition: null
-            fieldUid: 9c921747-c91f-4a83-8fdf-6947c3e6d0ca # Blocks
+            fieldUid: 3e12bea0-34ff-4c7f-9339-e4857d97b9ae # Heading
             handle: null
             includeInCards: false
             instructions: null
@@ -69,21 +63,21 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 40e633ab-e428-41db-b292-ab8e2880083c
+            uid: 51a9ab7e-a37b-46fd-a013-f44b79654ea2
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 69f4ae23-1cba-4cfc-9d5d-d8776f654ccd
+        uid: c48241cb-e623-4c6a-9eaf-cc7ac6c49e8a
         userCondition: null
-handle: home
+handle: imageBanner
 hasTitleField: false
-icon: house
-name: Home
+icon: image
+name: 'Image Banner'
 showSlugField: false
 showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: Homepage
+titleFormat: ''
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

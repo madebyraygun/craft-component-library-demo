@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: banner
+instructions: null
+name: Banner
+searchable: false
+settings:
+  createButtonLabel: 'Add Banner'
+  entryTypes:
+    - 570d3b6e-2015-496c-85f1-edc21bd33730 # Text Banner
+    - 8f4052f9-542a-4d90-b15a-56fcb5bffabb # Image Banner
+  includeTableView: false
+  maxEntries: 1
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

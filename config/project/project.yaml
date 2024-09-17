@@ -1,4 +1,4 @@
-dateModified: 1726521807
+dateModified: 1726598623
 email:
   fromEmail: dev@madebyraygun.com
   fromName: 'Craft Component Library Demo'
@@ -14,14 +14,18 @@ fs:
 meta:
   __names__:
     2c92c24e-f0d1-4b89-a42e-ec7c265a6840: Image # Image
+    3e12bea0-34ff-4c7f-9339-e4857d97b9ae: Heading # Heading
     4d526366-5a1c-48fb-a0aa-984b02e68669: Footer # Footer
     6f2a528c-e954-4719-86a3-4f33a68dc69c: Links # Links
+    8f4052f9-542a-4d90-b15a-56fcb5bffabb: 'Image Banner' # Image Banner
     9b457ece-bb79-4dce-abd8-bc4c85282c89: Cards # Cards
     9c921747-c91f-4a83-8fdf-6947c3e6d0ca: Blocks # Blocks
     30a59d3d-d7b6-481d-a9f2-eb656f729f1d: Caption # Caption
     42e1856a-3438-4d4c-b094-2eddd66904c1: Link # Link
     58afd4c6-1d7f-4b69-bd55-c81f2357e7e9: Media # Media
     64e215c1-22c4-4d3d-adc3-9f8f2536d852: 'Short Description' # Short Description
+    80e511bf-4bea-4b20-aa34-d3bdd3cd64bd: Banner # Banner
+    570d3b6e-2015-496c-85f1-edc21bd33730: 'Text Banner' # Text Banner
     252949bb-1915-4a96-a783-d88b904da52d: Home # Home
     705231e4-6a10-4c03-80f4-69c51c381304: 'Craft Component Library Demo' # Craft Component Library Demo
     17198886-3d1c-4283-8cbf-dea8a07f9130: 'Rich Text' # Rich Text
