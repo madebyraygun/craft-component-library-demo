@@ -1,0 +1,13 @@
+.banner--text {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner--text .banner__content {
+  padding-block: 3rem;
+}
+
+.banner--text .banner__content p {
+  margin-top: 2rem;
+}
