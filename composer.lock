@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb3a662c915ba2b00c2c3501552ed057",
+    "content-hash": "005e5255df4b34df100deab1cadd1927",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1439,16 +1439,16 @@
         },
         {
             "name": "madebyraygun/craft-block-loader",
-            "version": "2.0.0",
+            "version": "dev-feature/4-ckeditor-support",
             "source": {
                 "type": "git",
                 "url": "https://github.com/madebyraygun/craft-block-loader.git",
-                "reference": "96b47d987b473616e31bcfc778b6478ee7d44191"
+                "reference": "fc293f6a6fb472f5977aef3a141af08a2b5312bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/madebyraygun/craft-block-loader/zipball/96b47d987b473616e31bcfc778b6478ee7d44191",
-                "reference": "96b47d987b473616e31bcfc778b6478ee7d44191",
+                "url": "https://api.github.com/repos/madebyraygun/craft-block-loader/zipball/fc293f6a6fb472f5977aef3a141af08a2b5312bb",
+                "reference": "fc293f6a6fb472f5977aef3a141af08a2b5312bb",
                 "shasum": ""
             },
             "require": {
@@ -1472,7 +1472,17 @@
                     "madebyraygun\\blockloader\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "check-cs": [
+                    "ecs check --ansi"
+                ],
+                "fix-cs": [
+                    "ecs check --ansi --fix"
+                ],
+                "phpstan": [
+                    "phpstan --memory-limit=1G"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -1488,7 +1498,7 @@
                 "issues": "https://github.com/madebyraygun/craft-block-loader/issues",
                 "source": "https://github.com/madebyraygun/craft-block-loader"
             },
-            "time": "2024-09-11T18:34:44+00:00"
+            "time": "2024-09-19T08:15:47+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",
@@ -6122,6 +6132,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "madebyraygun/component-library": 20,
+        "madebyraygun/craft-block-loader": 20,
         "craftcms/ecs": 20,
         "craftcms/phpstan": 20
     },

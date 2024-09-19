@@ -24,7 +24,7 @@
     "craftcms/ckeditor": "4.2.0",
     "craftcms/cms": "^5.0.0",
     "madebyraygun/component-library": "dev-dev",
-    "madebyraygun/craft-block-loader": "^2.0",
+    "madebyraygun/craft-block-loader": "dev-feature/4-ckeditor-support",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "autoload": {
@@ -53,7 +53,7 @@
   "repositories": [
     {
       "type": "github",
-      "url": "https://github.com/madebyraygun/component-library.git",
+      "url": "https://github.com/madebyraygun/craft-block-loader.git",
       "options": {
         "symlink": true
       }
