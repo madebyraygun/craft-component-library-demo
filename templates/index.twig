@@ -5,7 +5,7 @@
 {% block main %}
     {% if banner|default %}
         {% for item in banner|default %}
-            {% include '@modules/banner/' ~ item.templateHandle with item.context %}
+            {% include item.templateHandle with item.context %}
         {% endfor %}
     {% endif %}
 

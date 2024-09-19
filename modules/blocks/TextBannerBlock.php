@@ -4,14 +4,14 @@ namespace modules\blocks;
 
 use craft\elements\Entry;
 use madebyraygun\blockloader\base\ContextBlock;
-use madebyraygun\blockloader\base\ContextBlockSettings;
 
 class TextBannerBlock extends ContextBlock
 {
 
-    protected function onInit(ContextBlockSettings $settings): void
+    public function setSettings(): void
     {
-        $settings->templateHandle('text');
+        $this->settings
+            ->templateHandle('@modules/banner/text');
     }
     public function getContext(Entry $block): array
     {
