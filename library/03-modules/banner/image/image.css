@@ -1,7 +1,7 @@
 .banner--image {
   position: relative;
   display: flex;
-  fl3ex-direction: column;
+  flex-direction: column;
   height: 40vh;
   min-height: 250px;
   --color-heading: #ffffff;
@@ -31,7 +31,12 @@
 .banner--image .banner__content {
   position: relative;
   align-self: flex-end;
-  padding: 30px;
-  z-index: 2;
+  padding: 2rem;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.banner--image .banner__content h1 {
+  width: 100%;
 }
 

@@ -1,6 +1,7 @@
 .content-blocks {
   max-width: 80rem;
   margin: 2rem auto;
+  padding-inline: 2rem;
 }
 
 .content-blocks .content-block + .content-block {
