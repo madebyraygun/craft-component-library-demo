@@ -1,4 +1,4 @@
-dateModified: 1726598623
+dateModified: 1727136831
 email:
   fromEmail: dev@madebyraygun.com
   fromName: 'Craft Component Library Demo'
@@ -16,6 +16,7 @@ meta:
     2c92c24e-f0d1-4b89-a42e-ec7c265a6840: Image # Image
     3e12bea0-34ff-4c7f-9339-e4857d97b9ae: Heading # Heading
     4d526366-5a1c-48fb-a0aa-984b02e68669: Footer # Footer
+    6c9c669c-9194-4d80-9fb1-c52f0843d04f: 'Nested Entries' # Nested Entries
     6f2a528c-e954-4719-86a3-4f33a68dc69c: Links # Links
     8f4052f9-542a-4d90-b15a-56fcb5bffabb: 'Image Banner' # Image Banner
     9b457ece-bb79-4dce-abd8-bc4c85282c89: Cards # Cards
