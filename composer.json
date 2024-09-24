@@ -24,7 +24,7 @@
     "craftcms/ckeditor": "4.2.0",
     "craftcms/cms": "^5.0.0",
     "madebyraygun/component-library": "dev-dev",
-    "madebyraygun/craft-block-loader": "dev-feature/4-ckeditor-support",
+    "madebyraygun/craft-block-loader": "3.0.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "autoload": {
