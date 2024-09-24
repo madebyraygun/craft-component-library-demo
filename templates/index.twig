@@ -1,11 +1,27 @@
 {% extends "_layouts/_site" %}
-{% hook 'blocks' %}
+{% set banner = entry.blocksFromField('banner') %}
+{% set blocks = entry.blocksFromField('blocks') %}
+{% set nestedEntries = entry.blocksFromField('nestedEntries') %}
 
 {% block main %}
+    {% if banner|default %}
+        {% for item in banner|default %}
+            {% include item.templateHandle with item.context %}
+        {% endfor %}
+    {% endif %}
+
     {% if blocks|default %}
         <div class="content-blocks">
         {% for item in blocks|default %}
-            {% include '@content-blocks/' ~ item.handle with item.context %}
+            {% include '@content-blocks/' ~ item.templateHandle with item.context %}
+        {% endfor %}
+        </div>
+    {% endif %}
+
+    {% if nestedEntries|default %}
+        <div class="content-blocks">
+        {% for item in nestedEntries|default %}
+            {% include '@content-blocks/' ~ item.templateHandle with item.context %}
         {% endfor %}
         </div>
     {% endif %}

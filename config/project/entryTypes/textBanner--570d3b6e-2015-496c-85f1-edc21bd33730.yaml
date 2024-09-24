@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  f99dc0e6-9c81-4360-86a1-c135bc4746fc:
+  32c5a58a-090c-4369-bd91-88c7d7a48b8a:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-10T20:23:09+00:00'
+            dateAdded: '2024-09-17T18:32:06+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,14 +31,14 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 4a7f67c3-07c3-443f-bf01-35ef8fd389b8
+            uid: cbb32768-5642-4a1f-a38a-84303ed565b0
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-17T18:35:34+00:00'
+            dateAdded: '2024-09-17T18:34:00+00:00'
             elementCondition: null
-            fieldUid: 80e511bf-4bea-4b20-aa34-d3bdd3cd64bd # Banner
+            fieldUid: 3e12bea0-34ff-4c7f-9339-e4857d97b9ae # Heading
             handle: null
             includeInCards: false
             instructions: null
@@ -47,65 +47,37 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 48c7bbc9-d4b3-4e28-b729-49bd1a90694a
+            uid: d32b5cce-b572-451a-aa89-cfab7f091dd8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T18:34:00+00:00'
+            elementCondition: null
+            fieldUid: 64e215c1-22c4-4d3d-adc3-9f8f2536d852 # Short Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a12916e2-9cb5-4209-92d2-045751036987
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 69f4ae23-1cba-4cfc-9d5d-d8776f654ccd
+        uid: 58b6c499-5cd0-411d-b826-e91348d08f52
         userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            dateAdded: '2024-09-10T20:26:56+00:00'
-            elementCondition: null
-            fieldUid: 9c921747-c91f-4a83-8fdf-6947c3e6d0ca # Blocks
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 40e633ab-e428-41db-b292-ab8e2880083c
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'Matrix Example'
-        uid: c5b25c01-ec71-49f8-a9dd-a453ccfc54a8
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            dateAdded: '2024-09-23T23:36:33+00:00'
-            elementCondition: null
-            fieldUid: 6c9c669c-9194-4d80-9fb1-c52f0843d04f # Nested Entries
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 1545bb5f-bd20-4358-bfe0-b691ddc53f2d
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'Nested Entries Example'
-        uid: 8453d750-9d2e-44e1-b39c-b6c21399cd3c
-        userCondition: null
-handle: home
+handle: textBanner
 hasTitleField: false
-icon: house
-name: Home
+icon: text
+name: 'Text Banner'
 showSlugField: false
-showStatusField: false
+showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: Homepage
+titleFormat: ''
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

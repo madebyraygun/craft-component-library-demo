@@ -1,0 +1,24 @@
+columnSuffix: null
+handle: nestedEntries
+instructions: null
+name: 'Nested Entries'
+searchable: true
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: cc66de26-5ee6-4f1b-a9e9-cbf71904d44b # Simple
+  createButtonLabel: 'Add Block'
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  entryTypes:
+    - 9b457ece-bb79-4dce-abd8-bc4c85282c89 # Cards
+    - 2c92c24e-f0d1-4b89-a42e-ec7c265a6840 # Image
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: true
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

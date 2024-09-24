@@ -3,6 +3,10 @@
   font-family: var(--font-family-body);
 }
 
+.content * + * {
+  margin-top: 1.5rem;
+}
+
 .content a {
   color: var(--color-body-anchor);
   text-decoration: underline;

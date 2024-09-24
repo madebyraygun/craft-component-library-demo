@@ -1,11 +1,7 @@
 .content-block--cards__inner{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
-}
-
-.content-block--cards .card {
-  flex-basis: 100%;
 }
 
 @media screen and (min-width: 768px) {
